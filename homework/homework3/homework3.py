@@ -25,23 +25,16 @@ sum = int(0)
 for i in range (len(n)):
     if n[i] in Alph[0:19]:
         sum += 1
-        i +=1
     elif n[i] in Alph[19:27]:
         sum += 2
-        i +=1
     elif n[i] in Alph[27:36]:
         sum += 3
-        i +=1
     elif n[i] in Alph[36:43]:
         sum += 4
-        i +=1
     elif n[i] in Alph[43:49]:
         sum += 5
-        i +=1
     elif n[i] in Alph[49:54]:
         sum += 8
-        i +=1
     elif n[i] in Alph[54:]:
         sum += 10
-        i =+ 1
 print(f' Ваше слово в игре Scrabble имеет следущую ценность очках: {sum}.')
